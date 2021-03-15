@@ -105,6 +105,15 @@ cursor: pointer;
   margin: 60px 0 30px 0 ;
   
 }
+.info {
+  color : rgb(28, 61, 153) ; 
+  font-size: 18px;
+  padding-top: 20px;
+}
+.info:hover {
+ 
+  color : rgb(68, 9, 163) ;  
+}
 
 
 

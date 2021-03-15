@@ -12,7 +12,7 @@ const BooksList = () => {
           <BookDetail Book={Book} key={Book.id} />                  
         ))}
       </ul>
-      <p>* click on the title or auther name to edit it's value</p>
+      <p className='info'>- click on the title or auther name to edit it's value</p>
     </div>
   ) : (
     <div className="noBooks">There is no Books to read ... Please enter new ones</div>
