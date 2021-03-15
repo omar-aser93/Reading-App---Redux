@@ -2,7 +2,7 @@
   "name": "reading_list_redux",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://omar-aser93.github.io/Books-List/",
+  "homepage": "https://omar-aser93.github.io/Reading-App---Redux/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
