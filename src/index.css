@@ -1,0 +1,249 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ padding: 10px; 
+  background: url('./library-img.jpeg') center center no-repeat ;
+  background-size: cover;
+  background-color: rgb(11, 72, 107);
+}
+
+.App {
+  text-align: center;
+  width :80%;
+  margin: 20px auto;
+  background: rgb(79, 181, 240,0.6);
+  padding: 15px;
+  border-radius: 20px;
+  color: #fff;
+}
+
+
+/* nav */
+
+nav h1{
+  font-size: xx-large;
+}
+
+nav h4{
+  word-spacing : 5px;
+  color: rgb(11, 39, 56);
+}
+nav span{
+  font-size: larger;
+  color: rgb(37, 98, 124);
+}
+
+nav hr{
+  margin:  30px auto;
+  width :75%;    
+}
+
+
+/* add form */
+.addForm {
+
+  margin: 40px;
+}
+
+.addForm input {
+margin: 0 10px;
+  padding: 10px;
+  color: rgb(18, 70, 100);
+  border-radius: 20px;
+  outline: none;  
+  border: none;
+  font-size: 15px;
+  font-weight: 600;  
+}
+
+
+.addForm .addButton{
+  background:rgb(18, 70, 100) ;
+  color:#fff;
+border-radius: 0;
+padding: 7px 15px;
+cursor: pointer;
+}
+
+.addForm .addButton:hover{
+  background: #fff;
+  color: rgb(18, 70, 100);
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+
+
+
+/* list */
+
+.list{
+  background: rgba(202, 202, 202, 0.733);
+  padding: 15px;
+  border-radius: 20px;
+  margin: 10px 30px;
+}
+.noBooks {
+  margin: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(13, 48, 68);
+}
+
+.list ul {
+  list-style: none;  
+}
+.list p {
+
+  margin: 60px 0 30px 0 ;
+  
+}
+
+
+
+
+/* list item */
+
+li {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+li .title{
+  margin: 0 20px;
+  font-size: 18px;
+  color: rgb(18, 70, 100) ;
+  font-weight: 500;
+  flex: 1;
+}
+li .auther{
+  margin: 0 20px;
+  font-size: 18px;
+  color: rgb(18, 70, 100) ;
+  font-weight: 500;
+  flex: 1;
+}
+
+li .f{
+  background:rgb(10, 167, 94) ;
+  color:#fff;
+border: none;
+padding: 7px 15px;
+margin: 0 6px;
+cursor: pointer;
+outline: none;
+font-weight: 600;
+}
+
+li .f:hover{
+  background: #fff;
+  color:rgb(10, 167, 94);
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+li .r{
+  background:rgb(221, 75, 75) ;
+  color:#fff;
+  border: none;
+padding: 7px 15px;
+margin: 0 6px;
+cursor: pointer;
+outline: none;
+font-weight: 600;
+}
+li .r:hover{
+  background: #fff;
+  color: rgb(221, 75, 75);
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+
+
+/*edit form */
+
+.editForm {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.editForm input  {
+flex: 1;
+margin: 0 15px ;
+padding:10px ;
+color: rgb(18, 70, 100);
+  border-radius: 20px;
+  outline: none;  
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.editForm div {
+flex: 1;
+margin: 0 15px;
+padding:10px ;
+color: rgb(18, 70, 100);
+font-size: 15px;
+  font-weight: 600;
+}
+
+
+
+/*media query*/
+
+
+/*mobile phone */
+
+@media (max-width: 576px) { 
+ 
+  li .f{     
+    margin:  8px 10px;    
+    }
+    li .r{     
+      margin:  8px 10px;      
+      }
+
+      ul {
+     padding: 10px;
+       }
+       .editForm {
+       flex-direction: column;
+      }
+      
+      
+}
+
+
+
+/*tablet */
+@media (max-width: 992px){
+
+  .addForm input {
+    margin:  10px ;     
+    }
+
+    li {
+     flex-direction: column;     
+    }
+    li .f{     
+    margin:  8px 25px;    
+    }
+    li .r{     
+      margin:  8px 25px;      
+      }
+}   
