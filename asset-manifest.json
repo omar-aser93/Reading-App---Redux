@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Books-List/static/css/main.15fb6825.chunk.css",
-    "main.js": "/Books-List/static/js/main.fe6695d3.chunk.js",
-    "main.js.map": "/Books-List/static/js/main.fe6695d3.chunk.js.map",
-    "runtime-main.js": "/Books-List/static/js/runtime-main.f9dcbb34.js",
-    "runtime-main.js.map": "/Books-List/static/js/runtime-main.f9dcbb34.js.map",
-    "static/js/2.3a4506d9.chunk.js": "/Books-List/static/js/2.3a4506d9.chunk.js",
-    "static/js/2.3a4506d9.chunk.js.map": "/Books-List/static/js/2.3a4506d9.chunk.js.map",
-    "static/js/3.dd90f818.chunk.js": "/Books-List/static/js/3.dd90f818.chunk.js",
-    "static/js/3.dd90f818.chunk.js.map": "/Books-List/static/js/3.dd90f818.chunk.js.map",
-    "index.html": "/Books-List/index.html",
-    "static/css/main.15fb6825.chunk.css.map": "/Books-List/static/css/main.15fb6825.chunk.css.map",
-    "static/js/2.3a4506d9.chunk.js.LICENSE.txt": "/Books-List/static/js/2.3a4506d9.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/Books-List/static/media/library-img.f6556dad.jpeg"
+    "main.css": "/Reading-App---Redux/static/css/main.f2ee292e.chunk.css",
+    "main.js": "/Reading-App---Redux/static/js/main.fe6695d3.chunk.js",
+    "main.js.map": "/Reading-App---Redux/static/js/main.fe6695d3.chunk.js.map",
+    "runtime-main.js": "/Reading-App---Redux/static/js/runtime-main.ee5f9fe1.js",
+    "runtime-main.js.map": "/Reading-App---Redux/static/js/runtime-main.ee5f9fe1.js.map",
+    "static/js/2.3a4506d9.chunk.js": "/Reading-App---Redux/static/js/2.3a4506d9.chunk.js",
+    "static/js/2.3a4506d9.chunk.js.map": "/Reading-App---Redux/static/js/2.3a4506d9.chunk.js.map",
+    "static/js/3.dd90f818.chunk.js": "/Reading-App---Redux/static/js/3.dd90f818.chunk.js",
+    "static/js/3.dd90f818.chunk.js.map": "/Reading-App---Redux/static/js/3.dd90f818.chunk.js.map",
+    "index.html": "/Reading-App---Redux/index.html",
+    "static/css/main.f2ee292e.chunk.css.map": "/Reading-App---Redux/static/css/main.f2ee292e.chunk.css.map",
+    "static/js/2.3a4506d9.chunk.js.LICENSE.txt": "/Reading-App---Redux/static/js/2.3a4506d9.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Reading-App---Redux/static/media/library-img.f6556dad.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f9dcbb34.js",
+    "static/js/runtime-main.ee5f9fe1.js",
     "static/js/2.3a4506d9.chunk.js",
-    "static/css/main.15fb6825.chunk.css",
+    "static/css/main.f2ee292e.chunk.css",
     "static/js/main.fe6695d3.chunk.js"
   ]
 }
